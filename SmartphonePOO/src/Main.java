@@ -4,6 +4,8 @@ public class Main {
         //System.out.println(p1);
         Procesador p2 = new Procesador("AMD",12,120);
         //System.out.println(p2);
+        Procesador p3 = new Procesador();
+        //System.out.println(p3);
         Bateria b1 = new Bateria(5000, "3q96");
         //System.out.println(b1);
         Bateria b2 = new Bateria(4500, "7b23");
@@ -44,6 +46,15 @@ public class Main {
         //Usa un constructor sobrecargado
         //Asigna procesador vacio
         
+        //c3.setProcesador(p3);
+        //System.out.println(c3);
         
+        //PROBLEMA 5
+        //Guarda los smartphones en un arreglo
+        //Recorre y muestra todo
+        
+        Smartphone[] lista = {c1, c2, c3};
+        Inventario inv = new Inventario(lista);
+        inv.mostrarInventario();
     }
 }
