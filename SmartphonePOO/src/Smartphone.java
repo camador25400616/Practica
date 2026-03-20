@@ -69,10 +69,10 @@ public class Smartphone {
         sb.append("===Smartphone===").append("\n");
         sb.append("Numero de serie = ").append(this.numeroSerie).append("\n");
         sb.append("Marca = ").append(this.marca).append("\n");
-        sb.append("Modelo = ").append(this.modelo).append("\n");
-        sb.append("Procesador = ").append(this.procesador).append("\n");
-        sb.append("Bateria = ").append(this.bateria).append("\n");
-        sb.append("Sistema Operativo = ").append(this.sistemaOperativo).append("\n");
+        sb.append("Modelo = ").append(this.modelo).append("\n\n");
+        sb.append("Procesador = \n").append(getProcesador()).append("\n");
+        sb.append("Bateria = \n").append(getBateria()).append("\n");
+        sb.append("Sistema Operativo = \n").append(getSistemaOperativo()).append("\n");
         return sb.toString();
     }
 }

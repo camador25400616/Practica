@@ -42,7 +42,7 @@ public class Procesador {
         sb.append("===Procesador===").append("\n");
         sb.append("marca = ").append(marca).append("\n");
         sb.append("nucleos = ").append(nucleos).append("\n");
-        sb.append(", frecuenciaGHz=").append(frecuenciaGHz).append("\n");
+        sb.append("frecuenciaGHz = ").append(frecuenciaGHz).append("\n");
         return sb.toString();
     }
     

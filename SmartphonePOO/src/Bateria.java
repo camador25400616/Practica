@@ -27,8 +27,8 @@ public class Bateria {
     public String toString(){
         StringBuilder sb = new StringBuilder();
         sb.append("===Bateria===").append("\n");
-        sb.append("Capacidad mAh = ").append(this.capacidadMAh);
-        sb.append("Tipo de bateria = ").append(this.tipo);
+        sb.append("Capacidad mAh = ").append(this.capacidadMAh).append("\n");
+        sb.append("Tipo de bateria = ").append(this.tipo).append("\n");
         return sb.toString();
     }
 }
