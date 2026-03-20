@@ -53,8 +53,8 @@ public class Main {
         //Guarda los smartphones en un arreglo
         //Recorre y muestra todo
         
-        Smartphone[] lista = {c1, c2, c3};
-        Inventario inv = new Inventario(lista);
-        inv.mostrarInventario();
+        //Smartphone[] lista = {c1, c2, c3};
+        //Inventario inv = new Inventario(lista);
+        //inv.mostrarInventario();
     }
 }
