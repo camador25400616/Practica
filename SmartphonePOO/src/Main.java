@@ -13,10 +13,37 @@ public class Main {
         SistemaOperativo s2 = new SistemaOperativo("IOS","2.5");
         //System.out.println(s2);
         Smartphone c1 = new Smartphone("25400616","Samsung","Galaxy",p2,b1,s1);
-        System.out.println(c1);
+        //System.out.println(c1);
         Smartphone c2 = new Smartphone("25400617","Lenovo","Legion",p1,b1,s1);
-        System.out.println(c2);
+        //System.out.println(c2);
         Smartphone c3 = new Smartphone("25400618","Iphone","Iphone 18 Pro Max Ultra",p2,b2,s2);
-        System.out.println(c3);
+        //System.out.println(c3);
+        
+        //PROBLEMA 1
+        
+        //Antes de cambiar el procesador
+        //System.out.println(c1);
+        //c1.setProcesador(p1);
+        //Despues de cambiar el procesador
+        //System.out.println(c1);
+        
+        //PROBLEMA 2
+        //Cambia la capacidad de la batería
+        //Usando getter a setter
+        
+        //c1.getBateria().setCapacidadMAh(7000);
+        //System.out.println(c1);
+        
+        //PROBLEMA 3
+        //Instala otro SO
+        
+        //c2.setSistemaOperativo(s2);
+        //System.out.println(c2);
+        
+        //PROBLEMA 4
+        //Usa un constructor sobrecargado
+        //Asigna procesador vacio
+        
+        
     }
 }
